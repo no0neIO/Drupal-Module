@@ -1,0 +1,7 @@
+liquid.content:
+  path: '/demo-controller' 
+  defaults: 
+    _controller: '\Drupal\liquid\Controller\LiquidController::content' 
+    _title: 'Liquid Media Custom Module'
+  requirements: 
+    _permission: 'access content' 
